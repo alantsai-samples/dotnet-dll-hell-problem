@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
+            new ClassLibrary1.Class1().Convert();
             return View();
         }
 
